@@ -55,6 +55,27 @@ ul{
     list-style-type: none;
 }
 
+/* estilos de animated*/
+
+nav ul a:hover {
+    padding: 5px 1px;
+    border-bottom: 2px solid var(--text-color);
+}
+
+nav ul a {
+    font-size: var(--text-color);
+    border: 2px solid var(--secondary);
+    padding: 5rem 1rem;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+
+
+
+
 /* estilos de header*/
 
 header{
