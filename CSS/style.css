@@ -56,6 +56,7 @@ ul{
     font-size: var(--text-color);
 }
 
+
 /* estilos de header*/
 
 header{
@@ -267,21 +268,6 @@ nav ul {
    width: 75%;
 }
 
-.grid-qs{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(1fr));
-    grid-template-rows: 1fr 1fr;
-    padding: 3rem;
-    gap: 1rem;
-}
-
-.quiensomos4{
-    grid-column: 2 / 6;
-    grid-row: 1;
-    font-size: medium;
-    display: grid;
-    align-items: center;
-}
  .caja1{
      grid-column: 2;
      grid-row: 2;
