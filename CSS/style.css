@@ -356,6 +356,10 @@ nav ul {
     border-style: dashed ;
     border-color: var(--primary) ;
 }
+.contacto2{
+    padding: 15rem;
+    font-size: var(--text-small) ;
+}
 
 .form1{
     display: flex;
