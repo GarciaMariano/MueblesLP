@@ -53,6 +53,7 @@ a{
 
 ul{
     list-style-type: none;
+    font-size: var(--text-color);
 }
 
 /* estilos de header*/
@@ -602,5 +603,6 @@ ul{
         align-items: center;
         padding: 6rem;
     }
+    
     }
     
