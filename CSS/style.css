@@ -4,7 +4,6 @@
 
 
 /* inicio variables */
-
 :root{
 
     /*colors*/
@@ -422,7 +421,7 @@ nav ul {
 /* estilos fin footer */
 
 /* Media queries 480px */
-
+/*
 @media screen and (max-width: 590px) {
 
 body{
