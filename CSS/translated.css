@@ -17,18 +17,18 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: var(--font-secondary);
+  font-family: $font-secondary;
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto; }
 
 a {
   text-decoration: none;
-  color: var(--text-color); }
+  color: $text-color; }
 
 ul {
   list-style-type: none;
-  font-size: var(--text-color); }
+  font-size: $text-color; }
 
 /* animacion_imagenes */
 .animacion_imagen:hover {
@@ -44,7 +44,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--secondary); }
+  background-color: $secondary; }
 
 header picture {
   flex-basis: 45%; }
@@ -53,7 +53,7 @@ nav ul {
   flex-basis: 60%;
   display: flex;
   gap: 2rem;
-  font-size: var(--text-base); }
+  font-size: $text-base; }
 
 .logo {
   flex-basis: 5%;
@@ -67,10 +67,10 @@ nav ul {
   justify-content: center;
   align-items: center;
   height: 5rem;
-  font-size: var(--text-medium);
-  background-color: var(--base);
+  font-size: $text-medium;
+  background-color: $base;
   border-style: dashed;
-  border-color: var(--primary); }
+  border-color: $primary; }
 
 .footer2 {
   display: flex;
@@ -78,9 +78,9 @@ nav ul {
   justify-content: space-between;
   padding: 4.5rem;
   height: 10rem;
-  font-size: var(--text-small);
-  background-color: var(--secondary);
-  border-color: var(--primary); }
+  font-size: $text-small;
+  background-color: $secondary;
+  border-color: $primary; }
 
 .footer3 {
   display: flex;
@@ -88,8 +88,8 @@ nav ul {
   justify-content: flex-end;
   padding: 4.5rem;
   height: 10rem;
-  background-color: var(--secondary);
-  border-color: var(--primary); }
+  background-color: $secondary;
+  border-color: $primary; }
 
 /* estilos fin footer */
 /* views */
@@ -114,11 +114,11 @@ nav ul {
 .venta__info {
   padding: 1.5rem;
   border-style: dashed;
-  font-size: var(--text-medium);
-  border-color: var(--primary); }
+  font-size: $text-medium;
+  border-color: $primary; }
 
 .venta__text {
-  font-size: var(--text-base); }
+  font-size: $text-base; }
 
 /* fin estilos productos */
 /* estilo Inicio en inicio*/
@@ -137,16 +137,16 @@ nav ul {
 /* estilo Productos en inicio*/
 .producto4 {
   padding: 1rem;
-  font-size: var(--text-small); }
+  font-size: $text-small; }
 
 .producto {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 5rem;
-  background-color: var(--base);
+  background-color: $base;
   border-style: dashed;
-  border-color: var(--primary); }
+  border-color: $primary; }
 
 .grid-layout {
   display: grid;
@@ -163,16 +163,16 @@ nav ul {
   justify-content: center;
   align-items: center;
   padding: 2rem 0rem;
-  background-color: var(--base);
+  background-color: $base;
   border-style: dashed;
-  border-color: var(--primary); }
+  border-color: $primary; }
 
 .box__info1 {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  font-size: var(--text-medium); }
+  font-size: $text-medium; }
 
 .box__info2 {
   padding: 1rem; }
@@ -195,12 +195,12 @@ nav ul {
   padding: 5rem; }
 
 .quienes__title {
-  font-size: var(--text-large);
+  font-size: $text-large;
   width: 65%;
   padding: 1.2rem; }
 
 .quienes__text {
-  font-size: var(--text-medium);
+  font-size: $text-medium;
   width: 65%;
   padding: 1.2rem; }
 
@@ -214,14 +214,14 @@ nav ul {
   justify-content: center;
   align-items: center;
   height: 5rem;
-  font-size: var(--text-medium);
-  background-color: var(--base);
+  font-size: $text-medium;
+  background-color: $base;
   border-style: dashed;
-  border-color: var(--primary); }
+  border-color: $primary; }
 
 .contacto2 {
   padding: 15rem;
-  font-size: var(--text-small); }
+  font-size: $text-small; }
 
 .form1 {
   display: flex;
@@ -230,14 +230,14 @@ nav ul {
   align-items: center;
   padding: 5rem;
   gap: 1rem;
-  font-size: var(--text-medium); }
+  font-size: $text-medium; }
 
 .form2 {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5rem;
-  font-size: var(--text-small); }
+  font-size: $text-small; }
 
 /* fin estilos contacto */
 /* estilos preguntas frecuentes */
@@ -246,35 +246,35 @@ nav ul {
   justify-content: center;
   align-items: center;
   height: 5rem;
-  background-color: var(--base);
+  background-color: $base;
   border-style: dashed;
-  border-color: var(--primary); }
+  border-color: $primary; }
 
 .box__pf2 {
   display: flex;
   flex-direction: column;
   padding: 5rem;
-  font-size: var(--text-small);
+  font-size: $text-small;
   text-align: center; }
 
 .box__pf5 {
   padding: 1rem;
-  font-size: var(--text-small); }
+  font-size: $text-small; }
 
 /* estilos fin preguntas frecuentes */
 /* estilos quienes somos */
 .quiensomos__box {
   padding: 1rem;
-  font-size: var(--text-small); }
+  font-size: $text-small; }
 
 .quiensomos__title {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 5rem;
-  background-color: var(--base);
+  background-color: $base;
   border-style: dashed;
-  border-color: var(--primary); }
+  border-color: $primary; }
 
 .quiensomos__conteiner {
   display: flex;
@@ -297,23 +297,23 @@ nav ul {
 .caja1 {
   grid-column: 2;
   grid-row: 2;
-  background-color: var(--base);
+  background-color: $base;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5rem 5rem;
   border-style: dashed;
-  border-color: var(--primary); }
+  border-color: $primary; }
 
 .caja2 {
   grid-column: 4;
   grid-row: 2;
-  background-color: var(--base);
+  background-color: $base;
   padding: 5rem 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-style: dashed;
-  border-color: var(--primary); }
+  border-color: $primary; }
 
 /* estilos fin quienes somos*/
