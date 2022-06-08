@@ -4,7 +4,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;    
-    background-color: var(--secondary);
+    background-color: $secondary;
          
 }
 
@@ -16,7 +16,7 @@ nav ul {
     flex-basis: 60%;
     display: flex;
     gap: 2rem;  
-    font-size: var(--text-base) ;
+    font-size: $text-base;
     
 }
 

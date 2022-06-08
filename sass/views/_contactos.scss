@@ -9,14 +9,14 @@
     justify-content: center;
     align-items: center;
     height: 5rem;
-    font-size: var(--text-medium) ;
-    background-color: var(--base);
+    font-size: $text-medium ;
+    background-color: $base;
     border-style: dashed ;
-    border-color: var(--primary) ;
+    border-color: $primary ;
 }
 .contacto2{
     padding: 15rem;
-    font-size: var(--text-small) ;
+    font-size: $text-small;
 }
 
 .form1{
@@ -26,7 +26,7 @@
     align-items: center;
     padding: 5rem;
     gap: 1rem;
-    font-size: var(--text-medium) ;
+    font-size: $text-medium;
 }
 
 .form2{
@@ -34,7 +34,7 @@
     justify-content: center;
     align-items: center;
     padding: 5rem;
-    font-size: var(--text-small) ;
+    font-size: $text-small;
 }
 
 /* fin estilos contacto */

@@ -2,12 +2,10 @@
 @import url("https://fonts.googleapis.com/css2? family= Oswald & family= Source+Sans+Pro:wght@300 & display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Oswald & familia= Roboto:peso@300 &family= Source+Sans+Pro:wght@300 & display=swap");
 /* misc */
-:root {
-  /*colors*/
-  /*spacings*/
-  /* Font-family*/
-  /*Font sizes */ }
-
+/* colors */
+/* spacings */
+/* Font-family */
+/* Font sizes */
 * {
   margin: 0;
   padding: 0;
@@ -17,18 +15,18 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: $font-secondary;
+  font-family: "Roboto", sans-serif;
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto; }
 
 a {
   text-decoration: none;
-  color: $text-color; }
+  color: #000000; }
 
 ul {
   list-style-type: none;
-  font-size: $text-color; }
+  font-size: #000000; }
 
 /* animacion_imagenes */
 .animacion_imagen:hover {
@@ -38,13 +36,132 @@ ul {
   transition: all 2s linear; }
 
 /* animacion_imagenes */
+/* Media queries 480px */
+@media screen and (max-width: 590px) {
+  body {
+    display: flex;
+    flex-direction: column; }
+  header {
+    direction: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    align-items: center; }
+  .grid-layout {
+    display: grid;
+    grid-template-columns: auto; }
+  .quienes {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    padding: 0.5rem; }
+  section div img {
+    height: 22rem; }
+  .info {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em; }
+  ul {
+    align-items: center;
+    padding: 1em; }
+  .producto1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em; }
+  .producto2 {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 0.8em; }
+  .form1 {
+    display: flex;
+    flex-direction: column; }
+  .pf2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--text-small);
+    gap: 1rem;
+    min-height: 100vh; }
+  .footer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem; }
+  .footer3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem; } }
+
+/* Fin Media queries 480px */
+/* Media queries 728px */
+@media screen and (max-width: 728px) {
+  body {
+    display: flex;
+    flex-direction: column; }
+  header {
+    direction: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    align-items: center; }
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr)); }
+  .quienes {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    padding: 0.5rem; }
+  section div img {
+    height: 22rem; }
+  .info {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em; }
+  ul {
+    align-items: center;
+    padding: 1em; }
+  .producto1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em; }
+  .producto2 {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 0.8em; }
+  .form1 {
+    display: flex;
+    flex-direction: column; }
+  .pf2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--text-small);
+    gap: 1rem;
+    min-height: 100vh; }
+  .footer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem; }
+  .footer3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem; } }
+
 /* partials */
 /* estilos de header*/
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: $secondary; }
+  background-color: #1B7CA5; }
 
 header picture {
   flex-basis: 45%; }
@@ -53,7 +170,7 @@ nav ul {
   flex-basis: 60%;
   display: flex;
   gap: 2rem;
-  font-size: $text-base; }
+  font-size: 1.8em; }
 
 .logo {
   flex-basis: 5%;
@@ -67,10 +184,10 @@ nav ul {
   justify-content: center;
   align-items: center;
   height: 5rem;
-  font-size: $text-medium;
-  background-color: $base;
+  font-size: 2.4em;
+  background-color: #28B8D5;
   border-style: dashed;
-  border-color: $primary; }
+  border-color: #155E8D; }
 
 .footer2 {
   display: flex;
@@ -78,9 +195,9 @@ nav ul {
   justify-content: space-between;
   padding: 4.5rem;
   height: 10rem;
-  font-size: $text-small;
-  background-color: $secondary;
-  border-color: $primary; }
+  font-size: 1.4em;
+  background-color: #1B7CA5;
+  border-color: #155E8D; }
 
 .footer3 {
   display: flex;
@@ -88,8 +205,8 @@ nav ul {
   justify-content: flex-end;
   padding: 4.5rem;
   height: 10rem;
-  background-color: $secondary;
-  border-color: $primary; }
+  background-color: #1B7CA5;
+  border-color: #155E8D; }
 
 /* estilos fin footer */
 /* views */
@@ -114,11 +231,11 @@ nav ul {
 .venta__info {
   padding: 1.5rem;
   border-style: dashed;
-  font-size: $text-medium;
-  border-color: $primary; }
+  font-size: 2.4em;
+  border-color: #155E8D; }
 
 .venta__text {
-  font-size: $text-base; }
+  font-size: 1.8em; }
 
 /* fin estilos productos */
 /* estilo Inicio en inicio*/
@@ -137,16 +254,16 @@ nav ul {
 /* estilo Productos en inicio*/
 .producto4 {
   padding: 1rem;
-  font-size: $text-small; }
+  font-size: 1.4em; }
 
 .producto {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 5rem;
-  background-color: $base;
+  background-color: #28B8D5;
   border-style: dashed;
-  border-color: $primary; }
+  border-color: #155E8D; }
 
 .grid-layout {
   display: grid;
@@ -163,16 +280,16 @@ nav ul {
   justify-content: center;
   align-items: center;
   padding: 2rem 0rem;
-  background-color: $base;
+  background-color: #28B8D5;
   border-style: dashed;
-  border-color: $primary; }
+  border-color: #155E8D; }
 
 .box__info1 {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  font-size: $text-medium; }
+  font-size: 2.4em; }
 
 .box__info2 {
   padding: 1rem; }
@@ -195,12 +312,12 @@ nav ul {
   padding: 5rem; }
 
 .quienes__title {
-  font-size: $text-large;
+  font-size: 5.2em;
   width: 65%;
   padding: 1.2rem; }
 
 .quienes__text {
-  font-size: $text-medium;
+  font-size: 2.4em;
   width: 65%;
   padding: 1.2rem; }
 
@@ -214,14 +331,14 @@ nav ul {
   justify-content: center;
   align-items: center;
   height: 5rem;
-  font-size: $text-medium;
-  background-color: $base;
+  font-size: 2.4em;
+  background-color: #28B8D5;
   border-style: dashed;
-  border-color: $primary; }
+  border-color: #155E8D; }
 
 .contacto2 {
   padding: 15rem;
-  font-size: $text-small; }
+  font-size: 1.4em; }
 
 .form1 {
   display: flex;
@@ -230,14 +347,14 @@ nav ul {
   align-items: center;
   padding: 5rem;
   gap: 1rem;
-  font-size: $text-medium; }
+  font-size: 2.4em; }
 
 .form2 {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5rem;
-  font-size: $text-small; }
+  font-size: 1.4em; }
 
 /* fin estilos contacto */
 /* estilos preguntas frecuentes */
@@ -246,35 +363,35 @@ nav ul {
   justify-content: center;
   align-items: center;
   height: 5rem;
-  background-color: $base;
+  background-color: #28B8D5;
   border-style: dashed;
-  border-color: $primary; }
+  border-color: #155E8D; }
 
 .box__pf2 {
   display: flex;
   flex-direction: column;
   padding: 5rem;
-  font-size: $text-small;
+  font-size: 1.4em;
   text-align: center; }
 
 .box__pf5 {
   padding: 1rem;
-  font-size: $text-small; }
+  font-size: 1.4em; }
 
 /* estilos fin preguntas frecuentes */
 /* estilos quienes somos */
 .quiensomos__box {
   padding: 1rem;
-  font-size: $text-small; }
+  font-size: 1.4em; }
 
 .quiensomos__title {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 5rem;
-  background-color: $base;
+  background-color: #28B8D5;
   border-style: dashed;
-  border-color: $primary; }
+  border-color: #155E8D; }
 
 .quiensomos__conteiner {
   display: flex;
@@ -297,23 +414,23 @@ nav ul {
 .caja1 {
   grid-column: 2;
   grid-row: 2;
-  background-color: $base;
+  background-color: #28B8D5;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5rem 5rem;
   border-style: dashed;
-  border-color: $primary; }
+  border-color: #155E8D; }
 
 .caja2 {
   grid-column: 4;
   grid-row: 2;
-  background-color: $base;
+  background-color: #28B8D5;
   padding: 5rem 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-style: dashed;
-  border-color: $primary; }
+  border-color: #155E8D; }
 
 /* estilos fin quienes somos*/

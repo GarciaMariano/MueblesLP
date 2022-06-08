@@ -19,7 +19,7 @@
 
 .producto4{
     padding: 1rem;
-    font-size: var(--text-small) ;
+    font-size: $text-small;
 }
 
 .producto{
@@ -27,9 +27,9 @@
     justify-content: center;
     align-items: center;
     height: 5rem;
-    background-color: var(--base);
+    background-color: $base;
     border-style: dashed ;
-    border-color: var(--primary) ;
+    border-color: $primary;
 }
 
 .grid-layout{
@@ -51,9 +51,9 @@
     justify-content: center;
     align-items: center;
     padding: 2rem 0rem;
-    background-color: var(--base);
+    background-color: $base;
     border-style: dashed ;
-    border-color: var(--primary) ;
+    border-color: $primary;
 }
 
 .box__info1{
@@ -61,7 +61,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    font-size: var(--text-medium) ;
+    font-size: $text-medium;
 }
 
 .box__info2{
@@ -92,13 +92,13 @@
 }
 
 .quienes__title{
-    font-size: var(--text-large) ;
+    font-size: $text-large;
     width: 65%;
     padding: 1.2rem;
 }
 
 .quienes__text{
-    font-size: var(--text-medium) ;
+    font-size: $text-medium;
     width: 65%;
     padding: 1.2rem;
 }

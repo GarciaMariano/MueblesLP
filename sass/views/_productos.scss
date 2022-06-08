@@ -23,12 +23,12 @@
 .venta__info{
     padding: 1.5rem;
     border-style: dashed ;
-    font-size: var(--text-medium);   
-    border-color: var(--primary) ;     
+    font-size: $text-medium;  
+    border-color: $primary;    
 }
 
 .venta__text{
-    font-size: var(--text-base);
+    font-size: $text-base;
 }
 
 

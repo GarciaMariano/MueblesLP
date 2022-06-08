@@ -5,10 +5,10 @@
     justify-content: center;
     align-items: center;
     height: 5rem;
-    font-size: var(--text-medium) ;
-    background-color: var(--base);
+    font-size: $text-medium;
+    background-color: $base;
     border-style: dashed ;
-    border-color: var(--primary) ;
+    border-color: $primary;
 }
 
 .footer2{
@@ -17,9 +17,9 @@
     justify-content: space-between;
     padding: 4.5rem;
     height: 10rem;
-    font-size: var(--text-small) ;
-    background-color: var(--secondary);
-    border-color: var(--primary) ;
+    font-size: $text-small;
+    background-color: $secondary;
+    border-color: $primary;
     
 }
 
@@ -29,8 +29,8 @@
     justify-content: flex-end;
     padding: 4.5rem;
     height: 10rem;
-    background-color: var(--secondary);
-    border-color: var(--primary) ;
+    background-color: $secondary;
+    border-color: $primary;
 
 }
 
