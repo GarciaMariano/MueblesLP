@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Oswald & familia= Roboto:peso@300 &family= Source+Sans+Pro:wght@300 & display=swap');
 
+
+/* inicio variables */
+
 :root{
 
     /*colors*/
@@ -28,7 +31,10 @@
     --text-xsmall: 1em;
     
 }
+/* fin variables */
 
+/* inicio normalize */
+/*
 *{
     margin: 0;
     padding: 0;
@@ -56,9 +62,22 @@ ul{
     font-size: var(--text-color);
 }
 
+/* fin inicio normalize */
+
+/* animacion_imagenes */
+/*
+.animacion_imagen:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.animacion_imagen{
+    transition: all 2s linear;
+}
+/* animacion_imagenes */
+
 
 /* estilos de header*/
-
+/*
 header{
     display: flex;
     justify-content: space-around;
@@ -86,36 +105,25 @@ nav ul {
 }
 /* fin estilos de header*/
 
-/* estilo Inicio*/
-
-.inicio{
+/* estilo Inicio en inicio*/
+/*
+.box__inicio{
     display: flex;
     justify-content: center;
     padding: 1.5rem;    
 }
 
-.inicio1{
+.box__inicio1{
    display: flex;
    align-items: center;
    justify-content: center;
    width: 75%;
 }
 
-/* fin estilo Inicio*/
+/* fin estilo Inicio en inicio*/
 
-/* estilo Productos*/
-
-/* animacion_imagenes */
-
-.animacion_imagen:hover{
-    transform: scale(1.1, 1.1);
-}
-
-.animacion_imagen{
-    transition: all 2s linear;
-}
-/* animacion_imagenes */
-
+/* estilo Productos en inicio*/
+/*
 .producto4{
     padding: 1rem;
     font-size: var(--text-small) ;
@@ -139,6 +147,74 @@ nav ul {
     gap: 1rem;
 }
 
+/* fin estilo Productos en inicio*/
+
+/* estilo preguntas_frecuentes en inicio */
+/*
+.box__info{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+    background-color: var(--base);
+    border-style: dashed ;
+    border-color: var(--primary) ;
+}
+
+.box__info1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: var(--text-medium) ;
+}
+
+.box__info2{
+    padding: 1rem;
+}
+
+/* fin estilo preguntas_frecuentes en inicio */
+
+/* estilos quienes somos en inicio*/
+/*
+.quienes__img{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    padding: 5rem;
+     
+}
+
+.quienes__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding: 5rem;
+
+}
+
+.quienes__title{
+    font-size: var(--text-large) ;
+    width: 65%;
+    padding: 1.2rem;
+}
+
+.quienes__text{
+    font-size: var(--text-medium) ;
+    width: 65%;
+    padding: 1.2rem;
+}
+
+/* estilos quienes somos en inicio*/
+
+
+/* estilo Productos */
+/*
 .producto1{
     display: flex;
     flex-direction: row;
@@ -170,82 +246,16 @@ nav ul {
     font-size: var(--text-base);
 }
 
+/* fin estilos productos */
 
-/* fin estilo Productos*/
-
-/* estilo info */
-
-.info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 0rem;
-    background-color: var(--base);
-    border-style: dashed ;
-    border-color: var(--primary) ;
-}
-
-.info1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    font-size: var(--text-medium) ;
-}
-
-.info2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
-    font-size: var(--text-small) ;
-}
-.info3{
-    padding: 1rem;
-}
-
-/* fin estilo info */
-
-/* estilos quienes somos*/
-
-.quienes{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    padding: 5rem;
-     
-}
-
-.quienes1{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-    padding: 5rem;
-
-}
-
-.quienes2{
-    font-size: var(--text-large) ;
-    width: 65%;
-    padding: 1.2rem;
-}
-
-.quienes3{
-    font-size: var(--text-medium) ;
-    width: 65%;
-    padding: 1.2rem;
-}
-
-.quiensomos5{
+/* estilos quienes somos */
+/*
+.quiensomos__box{
     padding: 1rem;
     font-size: var(--text-small) ;
 }
 
-.quiensomos1{
+.quiensomos__title{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,20 +265,21 @@ nav ul {
     border-color: var(--primary) ;
 }
 
-.quiensomos2{
+.quiensomos__conteiner{
     display: flex;
     justify-content: center;
     padding: 1rem;  
 }
 
-.quiensomos3{
+.quiensomos__img{
    display: flex;
    align-items: center;
    justify-content: center;
    width: 75%;
 }
 
-.grid-qs{
+
+.quiensomos__grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
@@ -276,14 +287,8 @@ nav ul {
     gap: 1rem;
 }
 
-.quiensomos4{
-    grid-column: 2 / 6;
-    grid-row: 1;
-    font-size: medium;
-    display: grid;
-    align-items: center;
-}
- .caja1{
+
+.caja1{
      grid-column: 2;
      grid-row: 2;
      background-color: var(--base);
@@ -309,8 +314,8 @@ nav ul {
 /* estilos fin quienes somos*/
 
 /* estilos preguntas frecuentes */
-
-.pf1{
+/*
+.box__pf1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,7 +325,7 @@ nav ul {
     border-color: var(--primary) ;
 }
 
-.pf2{
+.box__pf2{
     display: flex;
     flex-direction: column;
     padding: 5rem;
@@ -328,7 +333,7 @@ nav ul {
     text-align: center;
 }
 
-.pf5{
+.box__pf5{
     padding: 1rem;
     font-size: var(--text-small) ;
 }
@@ -336,7 +341,7 @@ nav ul {
 /* estilos fin preguntas frecuentes */
 
 /* estilos contacto */
-
+/*
 .contacto{
     padding: 1rem;
 }
@@ -377,7 +382,7 @@ nav ul {
 /* fin estilos contacto */
 
 /* estilos footer */
-
+/*
 .footer1{
     display: flex;
     justify-content: center;
@@ -418,7 +423,7 @@ nav ul {
 
 /* Media queries 480px */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 590px) {
 
 body{
     display: flex;

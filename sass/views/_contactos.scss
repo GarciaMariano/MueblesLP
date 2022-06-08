@@ -1,0 +1,40 @@
+/* estilos contacto */
+
+.contacto{
+    padding: 1rem;
+}
+
+.contacto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-size: var(--text-medium) ;
+    background-color: var(--base);
+    border-style: dashed ;
+    border-color: var(--primary) ;
+}
+.contacto2{
+    padding: 15rem;
+    font-size: var(--text-small) ;
+}
+
+.form1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    gap: 1rem;
+    font-size: var(--text-medium) ;
+}
+
+.form2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    font-size: var(--text-small) ;
+}
+
+/* fin estilos contacto */

@@ -1,0 +1,39 @@
+/* estilos footer */
+
+.footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-size: var(--text-medium) ;
+    background-color: var(--base);
+    border-style: dashed ;
+    border-color: var(--primary) ;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4.5rem;
+    height: 10rem;
+    font-size: var(--text-small) ;
+    background-color: var(--secondary);
+    border-color: var(--primary) ;
+    
+}
+
+.footer3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 4.5rem;
+    height: 10rem;
+    background-color: var(--secondary);
+    border-color: var(--primary) ;
+
+}
+
+
+
+/* estilos fin footer */

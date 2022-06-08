@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: var(--font-secondary);
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+a{
+   text-decoration: none;
+   color: var(--text-color);
+}
+
+ul{
+    list-style-type: none;
+    font-size: var(--text-color);
+}

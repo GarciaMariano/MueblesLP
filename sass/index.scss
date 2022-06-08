@@ -1,0 +1,27 @@
+/* Externos */
+
+@import url('https://fonts.googleapis.com/css2? family= Oswald & family= Source+Sans+Pro:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Oswald & familia= Roboto:peso@300 &family= Source+Sans+Pro:wght@300 & display=swap');
+
+
+/* misc */
+
+@import './misc/variables';
+@import './misc/normalize';
+@import './misc/animations';
+
+/* partials */
+
+@import './partials/header';
+@import './partials/footer';
+
+/* views */
+
+@import './views/productos';
+@import './views/inicio';
+@import './views/contactos';
+@import './views/preguntas_frecuentes';
+@import './views/quienes_somos';
+
+
+

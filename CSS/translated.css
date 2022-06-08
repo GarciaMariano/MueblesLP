@@ -1,0 +1,319 @@
+/* Externos */
+@import url("https://fonts.googleapis.com/css2? family= Oswald & family= Source+Sans+Pro:wght@300 & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Oswald & familia= Roboto:peso@300 &family= Source+Sans+Pro:wght@300 & display=swap");
+/* misc */
+:root {
+  /*colors*/
+  /*spacings*/
+  /* Font-family*/
+  /*Font sizes */ }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: var(--font-secondary);
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto; }
+
+a {
+  text-decoration: none;
+  color: var(--text-color); }
+
+ul {
+  list-style-type: none;
+  font-size: var(--text-color); }
+
+/* animacion_imagenes */
+.animacion_imagen:hover {
+  transform: scale(1.1, 1.1); }
+
+.animacion_imagen {
+  transition: all 2s linear; }
+
+/* animacion_imagenes */
+/* partials */
+/* estilos de header*/
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--secondary); }
+
+header picture {
+  flex-basis: 45%; }
+
+nav ul {
+  flex-basis: 60%;
+  display: flex;
+  gap: 2rem;
+  font-size: var(--text-base); }
+
+.logo {
+  flex-basis: 5%;
+  display: flex;
+  padding: 1rem; }
+
+/* fin estilos de header*/
+/* estilos footer */
+.footer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  font-size: var(--text-medium);
+  background-color: var(--base);
+  border-style: dashed;
+  border-color: var(--primary); }
+
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4.5rem;
+  height: 10rem;
+  font-size: var(--text-small);
+  background-color: var(--secondary);
+  border-color: var(--primary); }
+
+.footer3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 4.5rem;
+  height: 10rem;
+  background-color: var(--secondary);
+  border-color: var(--primary); }
+
+/* estilos fin footer */
+/* views */
+/* estilo Productos */
+.producto1 {
+  display: flex;
+  flex-direction: row;
+  padding: 8rem; }
+
+.producto2 {
+  display: flex;
+  flex-direction: row;
+  padding: 8rem; }
+
+.venta {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 4.5rem; }
+
+.venta__info {
+  padding: 1.5rem;
+  border-style: dashed;
+  font-size: var(--text-medium);
+  border-color: var(--primary); }
+
+.venta__text {
+  font-size: var(--text-base); }
+
+/* fin estilos productos */
+/* estilo Inicio en inicio*/
+.box__inicio {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem; }
+
+.box__inicio1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%; }
+
+/* fin estilo Inicio en inicio*/
+/* estilo Productos en inicio*/
+.producto4 {
+  padding: 1rem;
+  font-size: var(--text-small); }
+
+.producto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: var(--base);
+  border-style: dashed;
+  border-color: var(--primary); }
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 1rem;
+  gap: 1rem; }
+
+/* fin estilo Productos en inicio*/
+/* estilo preguntas_frecuentes en inicio */
+.box__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+  background-color: var(--base);
+  border-style: dashed;
+  border-color: var(--primary); }
+
+.box__info1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: var(--text-medium); }
+
+.box__info2 {
+  padding: 1rem; }
+
+/* fin estilo preguntas_frecuentes en inicio */
+/* estilos quienes somos en inicio*/
+.quienes__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5rem; }
+
+.quienes__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  padding: 5rem; }
+
+.quienes__title {
+  font-size: var(--text-large);
+  width: 65%;
+  padding: 1.2rem; }
+
+.quienes__text {
+  font-size: var(--text-medium);
+  width: 65%;
+  padding: 1.2rem; }
+
+/* estilos quienes somos en inicio*/
+/* estilos contacto */
+.contacto {
+  padding: 1rem; }
+
+.contacto1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  font-size: var(--text-medium);
+  background-color: var(--base);
+  border-style: dashed;
+  border-color: var(--primary); }
+
+.contacto2 {
+  padding: 15rem;
+  font-size: var(--text-small); }
+
+.form1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  gap: 1rem;
+  font-size: var(--text-medium); }
+
+.form2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  font-size: var(--text-small); }
+
+/* fin estilos contacto */
+/* estilos preguntas frecuentes */
+.box__pf1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: var(--base);
+  border-style: dashed;
+  border-color: var(--primary); }
+
+.box__pf2 {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  font-size: var(--text-small);
+  text-align: center; }
+
+.box__pf5 {
+  padding: 1rem;
+  font-size: var(--text-small); }
+
+/* estilos fin preguntas frecuentes */
+/* estilos quienes somos */
+.quiensomos__box {
+  padding: 1rem;
+  font-size: var(--text-small); }
+
+.quiensomos__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: var(--base);
+  border-style: dashed;
+  border-color: var(--primary); }
+
+.quiensomos__conteiner {
+  display: flex;
+  justify-content: center;
+  padding: 1rem; }
+
+.quiensomos__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%; }
+
+.quiensomos__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 3rem;
+  gap: 1rem; }
+
+.caja1 {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: var(--base);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 5rem;
+  border-style: dashed;
+  border-color: var(--primary); }
+
+.caja2 {
+  grid-column: 4;
+  grid-row: 2;
+  background-color: var(--base);
+  padding: 5rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: dashed;
+  border-color: var(--primary); }
+
+/* estilos fin quienes somos*/

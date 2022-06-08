@@ -1,0 +1,10 @@
+/* animacion_imagenes */
+
+.animacion_imagen:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.animacion_imagen{
+    transition: all 2s linear;
+}
+/* animacion_imagenes */

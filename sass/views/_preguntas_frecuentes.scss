@@ -1,0 +1,26 @@
+/* estilos preguntas frecuentes */
+
+.box__pf1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: var(--base);
+    border-style: dashed ;
+    border-color: var(--primary) ;
+}
+
+.box__pf2{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    font-size: var(--text-small) ;
+    text-align: center;
+}
+
+.box__pf5{
+    padding: 1rem;
+    font-size: var(--text-small) ;
+}
+
+/* estilos fin preguntas frecuentes */

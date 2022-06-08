@@ -1,0 +1,28 @@
+/* estilos de header*/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    background-color: var(--secondary);
+         
+}
+
+header picture {
+    flex-basis: 45%;
+}
+
+nav ul {
+    flex-basis: 60%;
+    display: flex;
+    gap: 2rem;  
+    font-size: var(--text-base) ;
+    
+}
+
+.logo{
+    flex-basis: 5%;
+    display: flex;
+    padding: 1rem;
+}
+/* fin estilos de header*/
