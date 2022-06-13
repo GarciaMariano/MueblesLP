@@ -2,10 +2,22 @@
 @import url("https://fonts.googleapis.com/css2? family= Oswald & family= Source+Sans+Pro:wght@300 & display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Oswald & familia= Roboto:peso@300 &family= Source+Sans+Pro:wght@300 & display=swap");
 /* misc */
-/* colors */
 /* spacings */
-/* Font-family */
-/* Font sizes */
+/* font-family */
+/* font sizes */
+/* colors */
+.primary {
+  color: #155E8D; }
+
+.secondary {
+  color: #1B7CA5; }
+
+.text-color {
+  color: #000000; }
+
+.base {
+  color: #28B8D5; }
+
 * {
   margin: 0;
   padding: 0;

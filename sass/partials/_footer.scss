@@ -6,9 +6,9 @@
     align-items: center;
     height: 5rem;
     font-size: $text-medium;
-    background-color: $base;
+    background-color: map-get($colors, base);
     border-style: dashed ;
-    border-color: $primary;
+    border-color: map-get($colors, primary);
 }
 
 .footer2{
@@ -18,8 +18,8 @@
     padding: 4.5rem;
     height: 10rem;
     font-size: $text-small;
-    background-color: $secondary;
-    border-color: $primary;
+    background-color: map-get($colors, secondary);
+    border-color: map-get($colors, primary);
     
 }
 
@@ -29,8 +29,8 @@
     justify-content: flex-end;
     padding: 4.5rem;
     height: 10rem;
-    background-color: $secondary;
-    border-color: $primary;
+    background-color: map-get($colors, secondary);
+    border-color: map-get($colors, primary);
 
 }
 

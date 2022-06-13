@@ -5,9 +5,9 @@
     justify-content: center;
     align-items: center;
     height: 5rem;
-    background-color: $base;
+    background-color: map-get($colors, base);
     border-style: dashed ;
-    border-color: $primary;
+    border-color: map-get($colors, primary);
 }
 
 .box__pf2{
