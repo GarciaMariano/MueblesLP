@@ -67,6 +67,15 @@
 .box__info2{
     padding: 1rem;
 }
+.box__text{
+    padding: 0 3rem;
+    font-size: $text-small;
+    &--active {
+        @extend .box__text;
+        color: white;
+    }
+
+}
 
 /* fin estilo preguntas_frecuentes en inicio */
 

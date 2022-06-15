@@ -306,6 +306,12 @@ nav ul {
 .box__info2 {
   padding: 1rem; }
 
+.box__text, .box__text--active {
+  padding: 0 3rem;
+  font-size: 1.4em; }
+  .box__text--active {
+    color: white; }
+
 /* fin estilo preguntas_frecuentes en inicio */
 /* estilos quienes somos en inicio*/
 .quienes__img {
