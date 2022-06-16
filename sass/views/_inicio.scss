@@ -13,7 +13,7 @@
    align-items: center;
    justify-content: center;*/
    width: 75%;
-}
+ }
 
 /* fin estilo Inicio en inicio*/
 
@@ -119,3 +119,123 @@
 }
 
 /* estilos quienes somos en inicio*/
+   
+     /* Media queries 728px */
+    
+@media screen and (max-width: 728px) {
+    
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        header {
+            direction: flex;
+            flex-direction: column;   
+            font-size: 0.8em;
+            align-items: center; 
+
+        }  
+       
+        .box__inicio1{  
+            height: 30rem;
+
+        }
+        .img_qs{
+            height: 50rem;
+        }
+       
+        
+        .grid-layout{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+            
+        }
+        
+        .quienes__img{
+            display: flex;
+            flex-direction: column;
+            font-size: 0.8em;
+            padding: 0.5rem;    
+        }
+        
+        
+        .footer2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 8rem;
+        }
+        
+        .footer3{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 6rem;
+        }
+        
+        }
+             /* Media queries 480px */
+    
+@media screen and (max-width: 480px) {
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav{
+        direction: flex;
+        flex-direction: column;   
+        font-size: 0.8em;
+        align-items: center;  
+        
+    } 
+   
+    .box__inicio1{  
+        height: 30rem;
+        width: 100%;
+
+    }
+    .img_qs{
+        height: 40rem;
+        width: 80%;
+    }
+   
+    
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+        
+    }
+    
+    .quienes__img{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8em;
+        padding: 0.5rem;    
+    }
+    
+    
+    .footer2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8rem;
+    }
+    
+    .footer3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 6rem;
+    }
+    
+    }
+        
+
+    
