@@ -199,6 +199,42 @@ nav ul {
     align-items: center;
     padding: 6rem; } }
 
+/* estilo header en inicio*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.hamburger {
+  display: none; }
+
+nav ul {
+  flex-basis: 60%;
+  display: flex;
+  gap: 2.4rem; }
+
+nav ul a {
+  padding: .5rem 1rem;
+  border-bottom: 2px solid white;
+  transition: all .3s ease-in-out; }
+
+nav ul a:hover {
+  border-color: #000000; }
+
+nav ul s:visited {
+  color: white; }
+
+input[type="checkbox"] {
+  position: absolute;
+  top: 164px;
+  height: 24px;
+  width: 40px;
+  opacity: 0; }
+
+input[type="checkbox"]:checked ~ nav {
+  display: block; }
+
+/* estilo fin header */
 /* estilo Inicio en inicio*/
 .box__inicio {
   display: flex;
@@ -299,6 +335,10 @@ nav ul {
     justify-content: center;*/
   padding: 5rem; }
 
+.img_qs {
+  height: 50%;
+  width: 90%; }
+
 .quienes__info {
   display: flex;
   flex-direction: column;
@@ -323,20 +363,21 @@ nav ul {
   padding: 1.2rem; }
 
 /* estilos quienes somos en inicio*/
-/* Media queries 728px */
-@media screen and (max-width: 728px) {
+/* Media queries 480px */
+@media screen and (max-width: 480px) {
   body {
     display: flex;
     flex-direction: column; }
-  header {
-    direction: flex;
-    flex-direction: column;
-    font-size: 0.8em;
-    align-items: center; }
+  nav {
+    display: none; }
+  .hamburger {
+    display: block; }
+  input[type="checkbox"] {
+    display: block;
+    opacity: 0; }
   .box__inicio1 {
-    height: 30rem; }
-  .img_qs {
-    height: 50rem; }
+    height: 30rem;
+    width: 100%; }
   .grid-layout {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr)); }
@@ -355,25 +396,20 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    padding: 6rem; } }
+    align-items: center; } }
 
-/* Media queries 480px */
-@media screen and (max-width: 480px) {
+/* Media queries 728px */
+@media screen and (max-width: 728px) {
   body {
     display: flex;
     flex-direction: column; }
-  nav {
+  header {
     direction: flex;
     flex-direction: column;
     font-size: 0.8em;
     align-items: center; }
   .box__inicio1 {
-    height: 30rem;
-    width: 100%; }
-  .img_qs {
-    height: 40rem;
-    width: 80%; }
+    height: 30rem; }
   .grid-layout {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr)); }

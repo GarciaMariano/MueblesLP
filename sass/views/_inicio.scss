@@ -1,3 +1,46 @@
+/* estilo header en inicio*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.hamburger{
+    display: none
+}
+nav ul {
+    flex-basis: 60%;
+    display: flex;
+    gap: $spacing-small;
+}
+
+nav ul a {
+    padding: .5rem 1rem;
+    border-bottom: 2px solid white;
+    transition: all .3s ease-in-out;
+}
+nav ul a:hover {
+    border-color: #000000;
+}
+nav ul s:visited {
+    color: white ;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    top: 164px;
+    height: 24px;
+    width: 40px;
+    opacity: 0;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    display: block;
+
+} 
+
+/* estilo fin header */
+
 /* estilo Inicio en inicio*/
 
 .box__inicio{
@@ -95,6 +138,11 @@
      
 }
 
+.img_qs{
+    height: 50%;
+    width: 90%;
+}
+
 .quienes__info{
     @include flex(column, center, center, 0);
     /*display: flex;
@@ -120,9 +168,69 @@
 
 /* estilos quienes somos en inicio*/
    
+             /* Media queries 480px */
+    
+@media screen and (max-width: 480px) {
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav{
+        display: none;  
+        
+    } 
+    .hamburger{
+        display: block;
+    }
+    input[type="checkbox"]{
+        display: block;
+        opacity: 0;
+    }
+   
+    .box__inicio1{  
+        height: 30rem;
+        width: 100%;
+
+    }
+      
+    
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+        
+    }
+    
+    .quienes__img{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8em;
+        padding: 0.5rem;    
+    }
+    
+    
+    .footer2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8rem;
+    }
+    
+    .footer3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    }
+
      /* Media queries 728px */
     
-@media screen and (max-width: 728px) {
+     @media screen and (max-width: 728px) {
     
         body{
             display: flex;
@@ -140,11 +248,7 @@
         .box__inicio1{  
             height: 30rem;
 
-        }
-        .img_qs{
-            height: 50rem;
-        }
-       
+        }      
         
         .grid-layout{
             display: grid;
@@ -177,65 +281,6 @@
         }
         
         }
-             /* Media queries 480px */
-    
-@media screen and (max-width: 480px) {
-    
-    body{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    nav{
-        direction: flex;
-        flex-direction: column;   
-        font-size: 0.8em;
-        align-items: center;  
-        
-    } 
-   
-    .box__inicio1{  
-        height: 30rem;
-        width: 100%;
-
-    }
-    .img_qs{
-        height: 40rem;
-        width: 80%;
-    }
-   
-    
-    .grid-layout{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
-        
-    }
-    
-    .quienes__img{
-        display: flex;
-        flex-direction: column;
-        font-size: 0.8em;
-        padding: 0.5rem;    
-    }
-    
-    
-    .footer2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 8rem;
-    }
-    
-    .footer3{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 6rem;
-    }
-    
-    }
         
 
     
