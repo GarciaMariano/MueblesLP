@@ -92,11 +92,23 @@ nav ul {
   background-color: #1B7CA5;
   border-color: #155E8D; }
 
+.email {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
 .footer3 {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 4.5rem;
+  background-color: #1B7CA5;
+  border-color: #155E8D; }
+
+.footer4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
   height: 10rem;
   background-color: #1B7CA5;
   border-color: #155E8D; }
@@ -215,7 +227,6 @@ nav ul {
 
 nav ul a {
   padding: .5rem 1rem;
-  border-bottom: 2px solid white;
   transition: all .3s ease-in-out; }
 
 nav ul a:hover {

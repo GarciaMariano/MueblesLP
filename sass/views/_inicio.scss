@@ -16,7 +16,6 @@ nav ul {
 
 nav ul a {
     padding: .5rem 1rem;
-    border-bottom: 2px solid white;
     transition: all .3s ease-in-out;
 }
 nav ul a:hover {
@@ -168,7 +167,7 @@ input[type="checkbox"]:checked ~ nav{
 
 /* estilos quienes somos en inicio*/
    
-             /* Media queries 480px */
+ /* Media queries 480px */
     
 @media screen and (max-width: 480px) {
     
