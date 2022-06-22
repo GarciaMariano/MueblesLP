@@ -1,3 +1,43 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.hamburger{
+    display: none
+}
+nav ul {
+    flex-basis: 60%;
+    display: flex;
+    gap: $spacing-small;
+}
+
+nav ul a {
+    padding: .5rem 1rem;
+    transition: all .3s ease-in-out;
+}
+nav ul a:hover {
+    border-color: #000000;
+}
+nav ul s:visited {
+    color: white ;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    top: 164px;
+    height: 24px;
+    width: 40px;
+    opacity: 0;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    display: block;
+
+} 
+
+/* estilo fin header */
 
 /* estilos quienes somos */
 
@@ -106,18 +146,22 @@
 
 @media screen and (max-width: 480px) {
 
-body{
-    display: flex;
-    flex-direction: column;
-}
-
-nav{
-    direction: flex;
-    flex-direction: column;   
-    font-size: 0.8em;
-    align-items: center;  
+    body{
+        display: flex;
+        flex-direction: column;
+    }
     
-} 
+    nav{
+        display: none;  
+        
+    } 
+    .hamburger{
+        display: block;
+    }
+    input[type="checkbox"]{
+        display: block;
+        opacity: 0;
+    }
    
 .footer2{
     display: flex;

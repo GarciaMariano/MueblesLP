@@ -5,9 +5,11 @@ header{
     justify-content: space-around;
     
 }
+
 .hamburger{
     display: none
 }
+
 nav ul {
     flex-basis: 60%;
     display: flex;
@@ -212,9 +214,10 @@ input[type="checkbox"]:checked ~ nav{
     .footer2{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        padding: 8rem;
+        height: 3rem;
+        
     }
     
     .footer3{
@@ -224,7 +227,12 @@ input[type="checkbox"]:checked ~ nav{
         align-items: center;
         
     }
-    
+    .email{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 3rem;
+    }
     }
 
      /* Media queries 728px */
@@ -268,7 +276,7 @@ input[type="checkbox"]:checked ~ nav{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 8rem;
+            
         }
         
         .footer3{
@@ -276,7 +284,7 @@ input[type="checkbox"]:checked ~ nav{
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            padding: 6rem;
+           
         }
         
         }
