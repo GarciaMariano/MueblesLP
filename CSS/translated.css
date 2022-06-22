@@ -92,10 +92,11 @@ nav ul {
   background-color: #1B7CA5;
   border-color: #155E8D; }
 
-.email {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center; }
+.form-label {
+  padding: 1rem; }
+
+.form-control {
+  padding: 1rem; }
 
 .footer3 {
   display: flex;
@@ -229,11 +230,13 @@ input[type="checkbox"]:checked ~ nav {
   .producto1 {
     display: flex;
     flex-direction: column;
-    font-size: 0.8em; }
+    font-size: 0.8em;
+    padding: 2rem; }
   .producto2 {
     display: flex;
     flex-direction: column-reverse;
-    font-size: 0.8em; }
+    font-size: 0.8em;
+    padding: 2rem; }
   .footer2 {
     display: flex;
     flex-direction: column;
