@@ -108,8 +108,8 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: center;
-  height: 10rem;
+  padding: 4.5rem;
+  font-size: 1.4em;
   background-color: #1B7CA5;
   border-color: #155E8D; }
 
