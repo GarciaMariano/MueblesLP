@@ -103,7 +103,82 @@ input[type="checkbox"]:checked ~ nav{
 
 /* estilos fin quienes somos*/
 
- /* Media queries 728px */
+     /* Media queries 480px */
+
+@media screen and (max-width: 480px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav{
+        display: none;  
+        
+    } 
+    .hamburger{
+        display: block;
+    }
+    input[type="checkbox"]{
+        display: block;
+        opacity: 0;
+    }
+
+    .box__qs{  
+        height: 30rem;
+        width: 100%;
+    }    
+    .video_ubicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+       
+    }
+   .video{
+    width: 90%;
+    height: 30rem;
+    padding: 2rem;
+
+   }
+   .ubicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 30rem;
+    padding: 2rem;
+
+   }
+   .ubicacion1{
+    width: 90%;
+    height: 25rem;
+    
+
+   }
+
+
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+}
+
+.footer3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+
+}
+
+     /* Media queries 728px */
 
 @media screen and (max-width: 728px) {
     
@@ -137,42 +212,4 @@ input[type="checkbox"]:checked ~ nav{
     }
     
     }
-         /* Media queries 480px */
-
-@media screen and (max-width: 480px) {
-
-    body{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    nav{
-        display: none;  
-        
-    } 
-    .hamburger{
-        display: block;
-    }
-    input[type="checkbox"]{
-        display: block;
-        opacity: 0;
-    }
-   
-.footer2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 8rem;
-}
-
-.footer3{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 6rem;
-}
-
-}
     
